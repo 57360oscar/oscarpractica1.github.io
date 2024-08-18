@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación Personal de Oscar</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s ease infinite;
+            color: #333;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-bottom: 2px solid #2575fc;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .profile-img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto;
+            border: 4px solid #2575fc;
+        }
+        .intro h2 {
+            text-align: center;
+            color: #2575fc;
+        }
+        .bio, .skills, .contact {
+            margin: 20px 0;
+        }
+        .bio p {
+            line-height: 1.6;
+        }
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills ul li {
+            background: #e9ecef;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+        .contact a {
+            color: #2575fc;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            border-top: 2px solid #2575fc;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 0%;
+            }
+            50% {
+                background-position: 100% 100%;
+            }
+            100% {
+                background-position: 0% 0%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Oscar</h1>
+    </header>
+
+    <div class="container">
+        <section class="intro">
+            <img src="imagen/foto-pnj.jpg" alt="Foto de perfil" class="profile-img">
+            <h2>Bienvenido a mi página personal</h2>
+        </section>
+
+        <section class="bio">
+            <h3>🤗 APRENDE SOBRE MI 😎</h3>
+            <p>Hola, mi nombre es Oscar soy estudiante de la universidad Salesiana de Bolvivai estudio la carrera de Ingenieria de sistemas .</p>
+        </section>
+
+        <section class="skills">
+            <h3> Mis Habilidades</h3>
+            <ul>
+                <li>se elaborar pan de cada dia </li>
+                <li>estoy asiendo pasantias en el Consejo de la Magistratura</li>
+                <li>me gusta el futbol</li>
+                <li>soy bueno en algunos juegos </li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h3>Contacto</h3>
+            <p>Si quieres ponerte en contacto conmigo, puedes enviarme un correo electrónico a <a href="mailto:tuemail@example.com">oscar.sarmiento.57360@gmail.com</a>.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Oscar. Todos los derechos reservados.</p>
+        
+    </footer>
+</body>
+</html>
